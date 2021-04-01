@@ -1,0 +1,59 @@
+unit Unit1;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Jpeg, Vcl.ExtCtrls;
+
+type
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Image1: TImage;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    procedure ApplicOnMessage(var Msg: TMsg; var Handled: Boolean);
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+{ TForm1 }
+
+procedure TForm1.ApplicOnMessage(var Msg: TMsg; var Handled: Boolean);
+var Koord:TPoint;
+begin
+if Msg.message=WM_LBUTTONDOWN then
+begin
+label1.Caption:='Щелкнули левой кнопкой';
+Koord:=Msg.pt;
+label2.Caption:=IntToStr(Koord.X)+'  '+IntToStr(Koord.Y);
+
+if Msg.message=WM_MOUSEWHEEL then
+begin
+  if Msg.wParam>0 then
+  begin
+  Image1.Width:=Image1.Width+7;
+  Image1.Height:=Image1.Height+7;
+  end
+  else
+  Image1.Width:=Image1.Width-7;
+  Image1.Height:=Image1.Height-7;
+  end;
+end;
+end;     s
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+Application.OnMessage:= ApplicOnMessage;
+end;
+
+end.
