@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.369,=C:\Users\stud\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.210,=C:\Users\stud\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021.03.24 11:28:07.369,=C:\Users\stud\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021.03.24 11:28:36.240,C:\Users\stud\Desktop\Курсовая ООП1\Unit1.dfm=C:\Users\stud\Documents\RAD Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2021.03.24 11:28:36.240,C:\Users\stud\Desktop\Курсовая ООП1\Unit1.pas=C:\Users\stud\Documents\RAD Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2021.03.24 11:28:37.739,C:\Users\stud\Desktop\Курсовая ООП1\Project1.dproj=C:\Users\stud\Documents\RAD Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.240,C:\Users\stud\Documents\RAD Studio\Projects\Unit1.dfm=C:\Users\stud\Desktop\Курсовая ООП1\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.739,C:\Users\stud\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\stud\Desktop\Курсовая ООП1\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.240,C:\Users\stud\Documents\RAD Studio\Projects\Unit1.pas=C:\Users\stud\Desktop\Курсовая ООП1\Unit1.pas</Transaction>
+    <Transaction>2021.04.07 11:16:30.503,C:\Users\stud\Desktop\ar\Unit1.dfm=C:\Users\stud\Desktop\Kursovaya\Unit1.dfm</Transaction>
+    <Transaction>2021.04.07 11:16:30.503,C:\Users\stud\Desktop\ar\Unit1.pas=C:\Users\stud\Desktop\Kursovaya\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
